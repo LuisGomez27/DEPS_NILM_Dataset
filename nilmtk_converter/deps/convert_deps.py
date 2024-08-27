@@ -7,6 +7,7 @@ from os import listdir
 from sys import stdout
 from nilmtk.utils import get_datastore
 from nilmtk.datastore import Key
+from nilmtk.dataset_converters import convert_deps
 from nilmtk.measurement import LEVEL_NAMES
 from nilmtk.utils import get_module_directory, check_directory_exists
 from nilm_metadata import save_yaml_to_datastore
